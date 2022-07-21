@@ -1,4 +1,4 @@
-![typescript logo](http://blog.lsantos.dev/typescript-47/)
+![typescript logo](https://raw.githubusercontent.com/khaosdoctor/blog-assets/master/images/2022/06/10b88c68-typescript-logo.png)
 # Typescript Parte 1 - Evoluindo seu Javascript
 
 ## Conteúdo das aulas
