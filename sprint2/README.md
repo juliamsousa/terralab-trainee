@@ -1,5 +1,5 @@
 ![git e github logo](https://videosdeti.com.br/wp-content/uploads/2018/12/git-githu-cover.png)
-# Typescript Parte 1 - Evoluindo seu Javascript
+# Git e GitHub: repositório, commit e versões
 
 ## Conteúdo das aulas
 
