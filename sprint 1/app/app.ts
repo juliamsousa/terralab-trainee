@@ -1,7 +1,7 @@
-import { Negociacao } from "./models/negociacao";
+// é necessario adicionar o js ao final para que funcione
+import { NegociacaoController } from "./controllers/negociacao-controller.js";
 
-const negociacao = new Negociacao(new Date(), 10, 100);
-
+const controller = new NegociacaoController
 /**
  * isso é um erro
  * essa propriedade é criada dinamicamente e nao corresponde
@@ -15,4 +15,9 @@ const negociacao = new Negociacao(new Date(), 10, 100);
 // com o TS adicionado esse erro passa a ser previsto em devtime
 // negociacao.quantidad = 10;
 
-console.log (negociacao.volume);
+const form = document.querySelector(".form");
+
+form.addEventListener("submit", e => {
+  e.preventDefault();
+  controller.adiciona();
+})
