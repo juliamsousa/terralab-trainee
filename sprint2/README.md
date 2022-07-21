@@ -16,3 +16,5 @@
 
 ### Materiais Adicionais
 https://code.visualstudio.com/docs/languages/markdown
+
+http://www2.decom.ufop.br/terralab/uma-introducao-ao-git-e-gitflow/
