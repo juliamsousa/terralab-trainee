@@ -13,3 +13,6 @@
 
 
 ### Módulo 2 - Commit, VSCode e equipe
+
+### Materiais Adicionais
+https://code.visualstudio.com/docs/languages/markdown
