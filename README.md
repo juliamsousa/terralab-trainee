@@ -14,3 +14,9 @@
 - Capacitação Git
 - Introdução ao Gitflow
 - Estudo dirigido sobre Git
+
+### Sprint 3
+
+- Capacitação em React Native
+- Introdução ao Figma
+- Desenvolvimento de projeto React Native e protótipo do Figma
