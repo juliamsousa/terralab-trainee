@@ -20,35 +20,15 @@
 
 ### Módulo 2 - Estados e ciclo de vida
 
+- Produzir um Componente:
+        Criando diferentes partes da tela separadamente, podemos controlá-las separadamente também. Começamos aprendendo como produzir o componente Topo com estilos distintos para cada Texto e imagens disponíveis.
 
-### Módulo 3 - Trabalhando Localmente
+- Criar um Mock:
+        Simulando uma API, criamos um Mock para receber dados como se fosse um serviço externo. Dessa forma, podemos aprender a nos comunicar com uma API sem de fato estar utilizando uma!
 
-- Entendemos a diferença entre Git e GitHub;
+- Salvar um Estado:
+        Imaginando que nossos dados externos mudam, nossa aplicação tem que acompanhar as mudanças dos dados e renderizar na tela as tais mudanças. Para isso, aprendemos a criar um estado que se encarrega de mudar o componente na tela sempre que algum dos dados é alterado.
 
-- Aprendemos como acessar o histórico de commit de um repositório;
-
-- Aplicamos alterações no projeto em um mesmo commit.
-
-### Módulo 4 - Adicionando Arquivos
-
-- git restore
-    
-- Aprendemos a trabalhar com essa parte de restauração de arquivos e do projeto, voltando para um estado anterior através do git restore;
-
-- git add
-
-- Aprendemos a adicionar os arquivos que queremos para o próximo commit através do git add.
-
-### Módulo 5 - Ramificações e Merge
-- branch
-
-- O que é;
-
-- Como criar uma nova branch chamada "desenvolvimento";
-
-- Como navegar entre a branch principal "main" e a branch "desenvolvimento" através do comando git switch;
-
-- Como enviar todas as alterações feitas na branch "desenvolvimento" para a branch principal “main” com o merge.
 
 
 ### Materiais Adicionais
@@ -56,3 +36,5 @@
 https://www.alura.com.br/artigos/como-fazer-a-migracao-do-expo-para-react-native-cli
 
 https://www.alura.com.br/artigos/configurando-o-ambiente-react-native
+
+https://pt-br.reactjs.org/docs/react-component.html
