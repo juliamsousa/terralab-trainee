@@ -1,19 +1,35 @@
-import React from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import React, {useReducer, useMemo} from 'react';
+import {TouchableOpacity, View, Text, Image, StyleSheet} from 'react-native';
 import Estrelas from '../componentes/Estrelas';
 
+const distanciaMetros = d => {
+  return `${d}m`;
+};
+
 export default function Produtor({nome, imagem, distancia, estrelas}) {
+  const [selecionado, inverterSelecionado] = useReducer(
+    selected => !selected,
+    false,
+  );
+
+  // o hook useMemo faz com que uma funcao nao fique repetindo sem necessidade
+  const distanciaTexto = useMemo(() => distanciaMetros(distancia), [distancia]);
+
   return (
-    <View style={estilos.cartao} clickable={true}>
+    <TouchableOpacity style={estilos.cartao} onPress={inverterSelecionado}>
       <Image source={imagem} acessibilityLabel={nome} style={estilos.image} />
       <View style={estilos.informacoes}>
         <View>
           <Text style={estilos.nome}>{nome}</Text>
-          <Estrelas />
+          <Estrelas
+            quantidade={estrelas}
+            editavel={selecionado}
+            grande={selecionado}
+          />
         </View>
-        <Text style={estilos.distancia}>{distancia}</Text>
+        <Text style={estilos.distancia}>{distanciaTexto}</Text>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 }
 
