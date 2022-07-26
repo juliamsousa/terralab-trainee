@@ -29,7 +29,34 @@
 - Salvar um Estado:
         Imaginando que nossos dados externos mudam, nossa aplicação tem que acompanhar as mudanças dos dados e renderizar na tela as tais mudanças. Para isso, aprendemos a criar um estado que se encarrega de mudar o componente na tela sempre que algum dos dados é alterado.
 
+### Módulo 3 - Hooks
+- Modificar a lista de produtores do app Orgs:
+Aprendemos o que são os Hooks, uma nova adição do React Native que nos permite a fazer ações de classe dentro dos componentes de função. Vimos um exemplo de Hooks que é o UseEffect e como os componentes de função são mais recomendados. 
 
+- Usar o State do Hook:
+Aplicamos o Hook de useState para criar um estado na lista de produtores do app Orgs. 
+
+- Criar uma lista de produtores:
+No app Orgs, criamos uma lista de produtores. Renderizamos os textos da lista com o renderItem. Implementamos estilos para mostrar uma lista bem bonita no app!
+
+- Estilizar a lista de produtores:
+Estruturamos a lista, adicionando uma View. Depois inserimos as imagens dos produtores, com um accessibilityLabel para permitir que pessoas cegas possam usar o app! Aplicamos estilos de cor, margens, borda arredondada, alinhamento, distância, tamanho da fonte, sombra no cartão.
+
+- Adicionar as estrelas para classificar produtores no App:
+Criamos, na pasta src, o componente de estrelas que podem ser clicadas pelo usuário para avaliar os produtores. As propriedades foram a quantidade, tamanho etc. Aplicamos um estilo de tamanho e largura condicionais em função das propriedades das estrelas.
+
+- Refatorar as estrelas:
+Para diminuir o tamanho do código, organizamos e enxugamos o componente de estrelas.
+
+### Módulo 4 - Avançando com Hooks
+- Criar seu próprio Hook:
+Aprendemos a criar um Hook personalizado para o nosso aplicativo, a fim de facilitar a reutilização da função em outros pontos do código.
+
+- Utilizar o Hook Reducer:
+Vimos como o useState pode complicar a criação de métodos complexos, portanto, para que não tenhamos problemas com funções extensas, usamos o useReducer, que simplifica lógicas extensas.
+
+- Utilizar o Hook de Memória:
+Com o useMemo, temos a possibilidade de escolher os estados que vão ser atualizados de acordo com o método, melhorando a performance do aplicativo (uma vez que ele não precisa recarregar todos os estados sempre que algum deles mudar).
 
 ### Materiais Adicionais
 
@@ -38,3 +65,5 @@ https://www.alura.com.br/artigos/como-fazer-a-migracao-do-expo-para-react-native
 https://www.alura.com.br/artigos/configurando-o-ambiente-react-native
 
 https://pt-br.reactjs.org/docs/react-component.html
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
