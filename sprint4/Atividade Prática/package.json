@@ -1,0 +1,16 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Atividade prática da Sprint 4 do Terralab",
+  "main": "calculadora.js",
+  "scripts": {
+    "start": "node calculadora.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "Git",
+    "Javascript"
+  ],
+  "author": "Júlia Miranda",
+  "license": "ISC"
+}
