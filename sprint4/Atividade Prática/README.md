@@ -187,9 +187,42 @@ através do seu gitlab para que o produto volte ao normal o quanto antes!
 
 <li>
 Descubra como executar esse novo código e que operações ele é capaz de realizar. Deixe sua resposta aqui, e explique o que essas funções javascript fazem. 
+<hr>
+
+## <b>RESPOSTA:</b>
+"A função eval() computa um código JavaScript representado como uma string", desse modo a calculadora recebe um caractere de operador e os dois números que serão operandos do cálculo.
+
+A função eval recebe esses parâmetros e interpreta-os realizando o cálculo em seguida. As funções que funcionam são apenas de adição (+) e subtração (-), porém, ao observar os resultados a função não opera como o esperado, ela concatena os números ao invés de realmente realizar as operações matemáticas.
+
+### Exemplos de execução
+
+```bash
+$ node calculadora.js '+' 1 2
+12
+```
+
+```bash
+$ node calculadora.js '-' 1 2
+-12
+```
+
+```bash
+$ node calculadora.js '*' 1 2
+undefined:1
+*12
+^
+
+SyntaxError: Unexpected token '*'
+```
+
+```bash
+$ node calculadora.js '/' 1 2
+undefined:1
+```
+
+<hr>
 </li>
 </ol>
-
 
 ## Materiais
 
@@ -198,3 +231,9 @@ Descubra como executar esse novo código e que operações ele é capaz de reali
 [Terraclub](https://drive.google.com/file/d/1_gOa9KG_6nHswQ7xNafjpUQE1i9nLN5B/view)
 
 [Conventional Commits - Um guia sobre como escrever commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+
+[Git Revert Reference](https://git-scm.com/docs/git-revert)
+
+[VIM Commands](https://www.keycdn.com/blog/vim-commands)
+
+[Eval()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/eval)
