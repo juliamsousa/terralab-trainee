@@ -20,3 +20,9 @@
 - Capacitação em React Native
 - Introdução ao Figma
 - Desenvolvimento de projeto React Native e protótipo do Figma
+
+### Sprint 4
+
+- Questões práticas de Git
+- Uso de localização e mapas em aplicativos React native
+- Desenvolvimento de repositório Git e aplicativo React Native com uso de mapas
